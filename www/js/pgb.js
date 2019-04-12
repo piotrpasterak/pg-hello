@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function myData() {
+
+	info =  'Hi, I am Piotr' + '\n' +
+			'=====' + '\n' +
+			'Name    : Piotr \n' + 
+			'Surname : Pasterak \n' + 
+
+	navigator.notification.alert(info);
+	
+}
